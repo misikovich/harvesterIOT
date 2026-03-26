@@ -1,4 +1,6 @@
 #include <Arduino.h>
+#include <EncButton.h>
+#include "blinker.h"
 
 #define BLINK_R_MOSFET_PIN 4
 #define BLINK_L_MOSFET_PIN 3
@@ -12,9 +14,16 @@
 #define ACCEL_ADXL345_SDA_PIN 8
 #define ACCEL_ADXL345_SCL_PIN 9
 
+// EncButton defines
+#define EB_NO_COUNTER
+#define EB_NO_BUFFER
+#define EB_DEB_TIME 50
+#define EB_HOLD_TIME 600
+
 
 void setup() {
 }
 
 void loop() {
+    
 }
