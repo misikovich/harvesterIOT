@@ -1,0 +1,4 @@
+{
+    // clangd
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/harvesterIOT_pio/compile_commands.json"
+}
