@@ -53,6 +53,14 @@
 #define UNLOCK1_DATA_LEN 15848U /* bytes */
 #define UNLOCK1_NUM_SAMPLES 7924U
 
+typedef struct Waveform {
+  const int16_t *data;
+  uint32_t len;
+  uint32_t sampleRate;
+  uint8_t channels;
+  uint8_t bitsPerSample;
+} UnlockWaveform;
+
 /* ── PCM data ─────────────────────────────────────────────────────────── */
 const int16_t UNLOCK1[] = {
     1,      6,      2,      0,      0,     0,     1,     -1,     -3,

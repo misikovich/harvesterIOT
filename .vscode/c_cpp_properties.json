@@ -14,7 +14,7 @@
                 ]
             },
             "intelliSenseMode": "clang-x64",
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17"
         }
